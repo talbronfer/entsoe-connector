@@ -1,0 +1,31 @@
+
+i
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   entsoe_connector.log
+#	new file:   hourly_electricity_rates_AT.json
+#	new file:   hourly_electricity_rates_AT.png
+#	new file:   hourly_electricity_rates_BE.json
+#	new file:   hourly_electricity_rates_BE.png
+#	new file:   hourly_electricity_rates_DE_LU.json
+#	new file:   hourly_electricity_rates_DE_LU.png
+#	new file:   hourly_electricity_rates_FR.json
+#	new file:   hourly_electricity_rates_FR.png
+#	new file:   hourly_electricity_rates_PL.json
+#	new file:   hourly_electricity_rates_PL.png
+#	new file:   hourly_electricity_rates_SE_1.json
+#	new file:   hourly_electricity_rates_SE_1.png
+#	new file:   hourly_electricity_rates_SE_2.json
+#	new file:   hourly_electricity_rates_SE_2.png
+#	new file:   hourly_electricity_rates_SE_3.json
+#	new file:   hourly_electricity_rates_SE_3.png
+#	new file:   hourly_electricity_rates_SE_4.json
+#	new file:   hourly_electricity_rates_SE_4.png
+#	new file:   main.py
+#
