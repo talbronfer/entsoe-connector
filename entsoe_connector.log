@@ -24,3 +24,7 @@ INFO:root:Successfully fetched and saved hourly electricity rates for SE_2.
 INFO:root:Successfully fetched and saved hourly electricity rates for SE_3.
 INFO:root:Successfully fetched and saved hourly electricity rates for SE_4.
 INFO:root:Successfully fetched and saved hourly electricity rates for AT.
+ERROR:root:Error fetching hourly electricity rates for AT: 401 Client Error: Unauthorized for url: https://web-api.tp.entsoe.eu/api?documentType=A44&in_Domain=10YAT-APG------L&out_Domain=10YAT-APG------L&securityToken=%3CAPI_KEY%3E&periodStart=202304032200&periodEnd=202304062200
+ERROR:root:Error fetching hourly electricity rates for AT: Please use a timezoned pandas object for start and end
+ERROR:root:Error fetching hourly electricity rates for AT: 401 Client Error: Unauthorized for url: https://web-api.tp.entsoe.eu/api?documentType=A44&in_Domain=10YAT-APG------L&out_Domain=10YAT-APG------L&securityToken=%3CAPI_KEY%3E&periodStart=202304012200&periodEnd=202304042200
+INFO:root:Successfully fetched and saved hourly electricity rates for AT.

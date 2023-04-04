@@ -42,10 +42,10 @@ def plot_hourly_electricity_rates(data, country_code):
     plt.savefig(f'hourly_electricity_rates_{country_code}.png')
 
 
-def get_hourly_electricity_rates(country_code):
+def get_hourly_electricity_rates(country_code, start):
     try:
         # Get start and end timestamps for tomorrow
-        start = pd.Timestamp(datetime.now().date() + timedelta(days=1), tz='Europe/Brussels')
+        ##start = pd.Timestamp(datetime.now().date() + timedelta(days=1), tz='Europe/Brussels')
         end = start + timedelta(days=1)
 
         # Request hourly electricity rates
@@ -72,7 +72,7 @@ def get_hourly_electricity_rates(country_code):
 if __name__ == "__main__":
     country_codes = ['AT']
     for country_code in country_codes:
-        get_hourly_electricity_rates(country_code)
+        get_hourly_electricity_rates(country_code, pd.Timestamp(datetime.now().date() - timedelta(days=1), tz='Europe/Brussels'))
         with open(f'hourly_electricity_rates_{country_code}.json', 'r') as f:
             data = json.load(f)
         
